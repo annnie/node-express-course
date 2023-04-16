@@ -14,3 +14,4 @@ const currentOS = {
   freeMem: os.freemem(),
 }
 console.log(currentOS)
+console.log(`the os release is: ${currentOS.release}`)
